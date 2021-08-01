@@ -13,7 +13,7 @@ html
 
 nav
 {
-	background-image: linear-gradient(to bottom,#1cbee2,white) ;
+	background-image: linear-gradient(to bottom,#1cbee2,#1cbee2) ;
 	color: black;
 	border-style: none;
 }
