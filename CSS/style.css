@@ -1,0 +1,285 @@
+hr {
+  border-color: darkblue; }
+
+form {
+  background: white;
+  color: black;
+  animation-name: fondos;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 25s;
+  animation-delay: 0s; }
+
+p {
+  color: black; }
+
+table {
+  border: solid black; }
+
+table thead tr {
+  background: #1cbee2;
+  color: black; }
+
+table thead tr td {
+  border: solid black; }
+
+table tbody tr td {
+  border: solid black; }
+
+footer {
+  background-color: #1cbee2;
+  color: black; }
+
+.textoFondo {
+  background-color: beige;
+  opacity: 0.5;
+  background-attachment: fixed;
+  color: black; }
+
+.fondoC {
+  background-image: radial-gradient(#1cbee2, white); }
+
+@keyframes fondos {
+  0% {
+    background-color: beige; }
+  25% {
+    background-color: aquamarine; }
+  50% {
+    background-color: #1cbee2; }
+  75% {
+    background-color: yellowgreen; }
+  100% {
+    background-color: beige; } }
+
+.fondoDeInicio {
+  background-image: url(../assets/img/empresa.jpg); }
+
+nav {
+  font-size: 2rem; }
+
+p {
+  font-size: 2rem;
+  font-family: 'Fira Sans Condensed',sans-serif; }
+
+h1 {
+  font-size: 5rem; }
+
+form {
+  border-style: solid;
+  border-width: 1;
+  font-size: 1.5rem; }
+
+legend {
+  font-size: 2rem; }
+
+input {
+  font-size: 1.7rem; }
+
+select {
+  font-size: 1.7rem; }
+
+button {
+  font-size: 1.7rem !important;
+  font-size: 4rem; }
+
+table {
+  font-size: 2rem;
+  font-family: 'Fira Sans Condensed',sans-serif; }
+
+ul div {
+  font-size: 1.5rem;
+  font-family: 'Fira Sans Condensed',sans-serif; }
+
+div {
+  font-size: 2rem; }
+
+footer {
+  font-size: 2rem;
+  font-family: 'Fira Sans Condensed',sans-serif; }
+
+.fondoDeInicio {
+  background-size: cover;
+  height: 700px;
+  width: 100%; }
+
+.seccion {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px; }
+
+.contenedor2 {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px; }
+
+.boton, .boton--aceptar, .boton--cancelar {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  color: black;
+  border-radius: 20px;
+  border: 1px solid black; }
+
+.boton--aceptar {
+  background-color: #1cbee2; }
+
+.boton--cancelar {
+  background-color: #1cbee2; }
+
+html {
+  font-size: 62.5%; }
+
+nav {
+  border-style: none;
+  background-image: linear-gradient(to bottom, #1cbee2, #1cbee2);
+  color: black; }
+  nav ul {
+    margin: 15px;
+    padding: 10px;
+    list-style: none; }
+    nav ul li {
+      display: inline-block;
+      vertical-aling: center;
+      width: 19%;
+      text-aling: center;
+      font-size: 2rem; }
+
+.header {
+  background-color: red; }
+
+.header__nav {
+  background-color: #1cbee2; }
+
+.header__logo {
+  border-radius: 20px; }
+
+.section {
+  font-size: 2rem; }
+
+.section__parrafo {
+  margin: 50px;
+  text-align: center; }
+
+hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 250px;
+  margin-left: 250px;
+  border-width: 0.7px;
+  padding: 0.7px;
+  background-color: black; }
+
+h1 {
+  text-align: center;
+  color: black; }
+
+h3 {
+  text-align: center;
+  font-size: 3rem; }
+
+form {
+  margin-bottom: 10px;
+  border-radius: 15px; }
+
+input {
+  border-radius: 5px; }
+
+select {
+  border-radius: 5px; }
+
+textarea {
+  height: 200px;
+  width: 300px;
+  margin-left: 20px; }
+
+table {
+  text-align: center; }
+
+table tbody tr td {
+  text-decoration: none; }
+
+article table {
+  align: center; }
+
+div aside ol {
+  text-align: left; }
+
+ul {
+  text-align: left; }
+
+footer {
+  text-align: left;
+  padding: 15px;
+  border-style: none; }
+
+footer div {
+  text-align: left; }
+
+footer div h5 {
+  text-align: center; }
+
+.textoFondo {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  margin-left: 200px;
+  margin-right: 100px;
+  margin-top: 100px; }
+
+.justificado {
+  text-align: center;
+  margin-bottom: 100px; }
+
+.textoEnItalica {
+  font-style: italic; }
+
+.izq {
+  text-align: left; }
+
+.centro {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.fondoDeInicio {
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.seccion {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  grid-template-rows: auto;
+  grid-template-areas: "nuestrosProductos productos";
+  justify-items: center;
+  align-items: center; }
+
+.seccion__texto {
+  grid-area: nuestrosProductos; }
+
+.seccion__tabla {
+  grid-area: productos; }
+
+.articulo {
+  font-size: 3rem !important;
+  background-color: beige; }
+
+.articulo__p1 {
+  text-align: left; }
+
+.articulo__p2 {
+  text-align: right; }
+
+.articulo__p3 {
+  text-align: left; }
+
+.contenedor2 {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  grid-template-rows: auto;
+  grid-template-areas: "tratamiento metodo";
+  justify-items: center;
+  align-items: center; }
+
+article.texto2 {
+  grid-area: tratamiento; }
+
+article.tabla2 {
+  grid-area: metodo; }

@@ -1,0 +1,80 @@
+$celeste:#1cbee2;
+$blanco:white;
+$azuloscuro:darkblue;
+$negro:black;
+
+$estilos:(
+	color:$celeste,
+	centro:center,
+	tfuente:1.5rem
+);
+
+hr
+ {
+ 	border-color:$azuloscuro;
+ }
+
+ form
+ {
+ 	background:$blanco;
+ 	color:$negro;
+ 	animation-name:fondos;
+ 	animation-iteration-count:infinite;
+ 	animation-timing-function:ease-in;
+ 	animation-duration:25s;
+ 	animation-delay:0s;
+ }
+
+ p
+ {
+ color:$negro;
+ }
+ table
+ 		{
+ 		border:solid $negro;
+ 		}
+ table thead tr
+ 		{
+ 		background:$celeste;
+ 		color:$negro;
+ 		}
+ 	
+table thead tr td
+		{
+		border:solid $negro;
+		}
+table tbody tr td
+		{
+			border:solid $negro;
+		}
+ footer
+ {
+ background-color:map-get($estilos,color);
+ color:$negro;
+ }
+ .textoFondo
+ {
+ 	background-color: beige;
+ 	opacity:0.5;
+	background-attachment: fixed;
+	color: $negro;
+ }
+
+ .fondoC
+ {
+ 	background-image: radial-gradient(#1cbee2,white);
+ }
+
+ @keyframes fondos
+{
+	0%{background-color: beige;}
+	25%{background-color: aquamarine;}
+	50%{background-color: #1cbee2;}
+	75%{background-color: yellowgreen;}
+	100%{background-color: beige;}
+
+}
+.fondoDeInicio
+{
+	background-image:url(../assets/img/empresa.jpg);
+}

@@ -1,0 +1,264 @@
+@import "colores";
+@import "tamaños";
+
+$margin:10px;
+$marginL:250px;
+
+
+.boton
+{
+	width:200px;
+	height:50px;
+	text-align:center;
+	color:black;
+	border-radius:20px;
+	border:1px solid black;
+}
+
+.boton--aceptar
+{
+	@extend .boton;
+	background-color:$celeste;
+}
+
+.boton--cancelar
+{
+	@extend .boton;
+	background-color:$celeste;
+}
+
+html
+{
+	font-size: 62.5%;
+}
+
+nav
+{
+	border-style:none;
+	background-image: linear-gradient(to bottom,#1cbee2,#1cbee2) ;
+	color: black;
+	ul
+	{
+	margin:15px;
+	padding:10px;
+	list-style:none;
+	li
+	{
+	display:inline-block;
+	vertical-aling:map-get($estilos,centro);
+	width:19%;
+	text-aling:map-get($estilos,centro);
+	font-size:$nav;
+	}
+	}
+}
+
+.header
+{
+	background-color:red;
+}
+.header__nav
+{
+	background-color:$celeste;
+}
+
+.header__logo
+{
+	border-radius: 20px;
+}
+
+.section
+{
+	font-size:2rem;
+}
+.section__parrafo
+{
+	margin:50px;
+	text-align:center;
+}
+
+
+hr
+{
+	margin-top:$margin;
+	margin-bottom:$margin;
+	margin-right:$marginL;
+	margin-left:$marginL;
+	border-width:0.7px;
+	padding:0.7px;
+	background-color:black;
+}
+
+h1
+{
+	text-align:map-get($estilos,centro);
+	color:$negro;
+}
+
+h3
+{
+	text-align:map-get($estilos,centro);
+	font-size:3rem;
+}
+
+form
+{
+	margin-bottom:$margin;
+	border-radius:15px;
+}
+
+input
+{
+	border-radius:5px;
+}
+
+select
+{
+	border-radius:5px;
+}
+
+textarea
+{
+	height:200px;
+	width:300px;
+	margin-left:20px;
+}
+
+table
+	{
+		text-align:map-get($estilos,centro);
+	}
+table tbody tr td
+	{
+	text-decoration:none;
+	}
+article table
+{
+	align:center;
+}
+
+div aside ol
+{
+	text-align:left;
+}
+
+ul
+{
+	text-align:left;
+}
+footer
+	{
+	text-align:left;
+	padding:15px;
+	border-style:none;
+	}
+footer div
+	{
+	text-align:left;
+	}
+footer div h5
+		{
+			text-align:map-get($estilos,centro);
+		}
+
+.textoFondo
+{
+	display: inline-block;
+	text-align: map-get($estilos,centro);
+	padding: 10px;
+	margin-left: 200px;
+	margin-right: 100px;
+	margin-top: 100px;
+	
+}
+
+
+.justificado
+{
+	text-align: center;
+	margin-bottom: 100px;
+}
+.textoEnItalica
+{
+	font-style: italic;
+}
+.izq
+{
+	text-align: left;
+}
+
+.centro
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.fondoDeInicio
+{
+	background-repeat:no-repeat;
+	background-position:map-get($estilos,centro);
+}
+
+
+.seccion
+{
+	display:grid;
+	grid-template-columns:49% 49%;
+	grid-template-rows:auto;
+	grid-template-areas:
+	"nuestrosProductos productos";
+	justify-items:map-get($estilos,centro);
+	align-items:map-get($estilos,centro);
+}
+
+.seccion__texto
+{
+	grid-area:nuestrosProductos;
+
+}
+
+.seccion__tabla
+{
+	grid-area:productos;
+}
+
+.articulo
+{
+	font-size:3rem !important;
+	background-color:beige;
+}
+.articulo__p1
+{
+	text-align:left;
+}
+.articulo__p2
+{
+	text-align:right;
+}
+
+.articulo__p3
+{
+	text-align:left;
+}
+
+.contenedor2
+{
+	display:grid;
+	grid-template-columns:49% 49%;
+	grid-template-rows:auto;
+	grid-template-areas:
+	"tratamiento metodo";
+	justify-items:center;
+	align-items:center;
+}
+article.texto2
+{
+	grid-area: tratamiento;
+}
+
+article.tabla2
+{
+	grid-area: metodo;
+}
