@@ -1,3 +1,7 @@
+nav {
+  background-image: linear-gradient(to bottom, #1cbee2, white);
+  color: black; }
+
 hr {
   border-color: darkblue; }
 
@@ -37,7 +41,10 @@ footer {
   color: black; }
 
 .fondoC {
-  background-image: radial-gradient(#1cbee2, white); }
+  background-image: linear-gradient(to bottom, white, #1cbee2); }
+
+.padding {
+  background-color: #1cbee2; }
 
 @keyframes fondos {
   0% {
@@ -47,22 +54,22 @@ footer {
   50% {
     background-color: #1cbee2; }
   75% {
-    background-color: yellowgreen; }
+    background-color: aquamarine; }
   100% {
     background-color: beige; } }
 
 .fondoDeInicio {
   background-image: url(../assets/img/empresa.jpg); }
 
-nav {
-  font-size: 2rem; }
-
 p {
   font-size: 2rem;
   font-family: 'Fira Sans Condensed',sans-serif; }
 
+span {
+  font-size: 1.7rem; }
+
 h1 {
-  font-size: 5rem; }
+  font-size: 4rem; }
 
 form {
   border-style: solid;
@@ -74,6 +81,9 @@ legend {
 
 input {
   font-size: 1.7rem; }
+
+label {
+  font-size: 2rem; }
 
 select {
   font-size: 1.7rem; }
@@ -97,6 +107,9 @@ footer {
   font-size: 2rem;
   font-family: 'Fira Sans Condensed',sans-serif; }
 
+.estandarL {
+  font-size: 1.7rem; }
+
 .fondoDeInicio {
   background-size: cover;
   height: 700px;
@@ -115,7 +128,7 @@ footer {
   height: 50px;
   text-align: center;
   color: black;
-  border-radius: 20px;
+  border-radius: 10px;
   border: 1px solid black; }
 
 .boton--aceptar {
@@ -128,19 +141,16 @@ html {
   font-size: 62.5%; }
 
 nav {
-  border-style: none;
-  background-image: linear-gradient(to bottom, #1cbee2, #1cbee2);
-  color: black; }
-  nav ul {
-    margin: 15px;
-    padding: 10px;
-    list-style: none; }
-    nav ul li {
-      display: inline-block;
-      vertical-aling: center;
-      width: 19%;
-      text-aling: center;
-      font-size: 2rem; }
+  border-style: none; }
+
+nav ul {
+  padding: 25px; }
+
+nav ul li {
+  width: 20%;
+  height: 10%;
+  font-size: 2rem;
+  text-align: center; }
 
 .header {
   background-color: red; }
@@ -175,9 +185,17 @@ h3 {
   text-align: center;
   font-size: 3rem; }
 
+p {
+  margin: 10px;
+  margin-left: 20px; }
+
 form {
-  margin-bottom: 10px;
+  margin: 10px;
+  padding: 10px;
   border-radius: 15px; }
+
+legend {
+  text-align: center; }
 
 input {
   border-radius: 5px; }
@@ -185,9 +203,21 @@ input {
 select {
   border-radius: 5px; }
 
+fieldset {
+  margin-left: 10px; }
+
+.margen {
+  margin: 5px; }
+
+.padding {
+  padding-top: 30px; }
+
+select {
+  border-radius: 5px; }
+
 textarea {
-  height: 200px;
-  width: 300px;
+  height: 100px;
+  width: 75%;
   margin-left: 20px; }
 
 table {
@@ -218,10 +248,7 @@ footer div h5 {
 
 .textoFondo {
   display: inline-block;
-  text-align: center;
   padding: 10px;
-  margin-left: 200px;
-  margin-right: 100px;
   margin-top: 100px; }
 
 .justificado {
@@ -234,9 +261,13 @@ footer div h5 {
 .izq {
   text-align: left; }
 
+.izquierda {
+  align: left; }
+
 .centro {
   display: flex;
   align-items: center;
+  text-align: center;
   justify-content: center; }
 
 .fondoDeInicio {
@@ -269,17 +300,3 @@ footer div h5 {
 
 .articulo__p3 {
   text-align: left; }
-
-.contenedor2 {
-  display: grid;
-  grid-template-columns: 49% 49%;
-  grid-template-rows: auto;
-  grid-template-areas: "tratamiento metodo";
-  justify-items: center;
-  align-items: center; }
-
-article.texto2 {
-  grid-area: tratamiento; }
-
-article.tabla2 {
-  grid-area: metodo; }

@@ -9,6 +9,12 @@ $estilos:(
 	tfuente:1.5rem
 );
 
+nav
+{
+    background-image: linear-gradient(to bottom,#1cbee2,white) ;
+    color: black;
+}
+
 hr
  {
  	border-color:$azuloscuro;
@@ -62,15 +68,20 @@ table tbody tr td
 
  .fondoC
  {
- 	background-image: radial-gradient(#1cbee2,white);
+ 	background-image: linear-gradient(to bottom,white,#1cbee2)
  }
+
+ .padding
+{
+   background-color:#1cbee2;
+}
 
  @keyframes fondos
 {
 	0%{background-color: beige;}
 	25%{background-color: aquamarine;}
 	50%{background-color: #1cbee2;}
-	75%{background-color: yellowgreen;}
+	75%{background-color: aquamarine;}
 	100%{background-color: beige;}
 
 }

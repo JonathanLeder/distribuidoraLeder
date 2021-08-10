@@ -1,18 +1,21 @@
 $nav:2rem;
 $parrafoD:2rem;
-$h1Desktop:5rem;
-$h1Mobile:2rem;
+$h1Desktop:4rem;
+$h1Mobile:1.7rem;
 
 
-nav
-{
-	font-size:$nav;
-}
+
+
 
 p
 {
 	font-size:$parrafoD;
 	font-family:'Fira Sans Condensed',sans-serif;
+}
+
+span
+{
+	font-size:1.7rem;
 }
 
 h1
@@ -35,6 +38,11 @@ legend
 input
 {
 	font-size:1.7rem;
+}
+
+label
+{
+	font-size:2rem;
 }
 
 select
@@ -68,6 +76,11 @@ footer
 {
 	font-size:2rem;
 	font-family:'Fira Sans Condensed',sans-serif;
+}
+
+.estandarL
+{
+	font-size:1.7rem;	
 }
 
 .fondoDeInicio

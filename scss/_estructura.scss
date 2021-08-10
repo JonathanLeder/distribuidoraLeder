@@ -1,6 +1,7 @@
 @import "colores";
 @import "tamaños";
 
+$marginS:5px;
 $margin:10px;
 $marginL:250px;
 
@@ -11,7 +12,7 @@ $marginL:250px;
 	height:50px;
 	text-align:center;
 	color:black;
-	border-radius:20px;
+	border-radius:10px;
 	border:1px solid black;
 }
 
@@ -35,23 +36,21 @@ html
 nav
 {
 	border-style:none;
-	background-image: linear-gradient(to bottom,#1cbee2,#1cbee2) ;
-	color: black;
-	ul
-	{
-	margin:15px;
-	padding:10px;
-	list-style:none;
-	li
-	{
-	display:inline-block;
-	vertical-aling:map-get($estilos,centro);
-	width:19%;
-	text-aling:map-get($estilos,centro);
-	font-size:$nav;
-	}
-	}
 }
+
+nav ul
+	{
+	padding:25px;
+	}
+
+nav ul li
+	{
+	width:20%;
+	height:10%;
+	font-size:2rem;
+	text-align:center;
+	}
+
 
 .header
 {
@@ -101,16 +100,51 @@ h3
 	font-size:3rem;
 }
 
+p
+{
+	margin:$margin;
+	margin-left:20px;
+}
+
 form
 {
-	margin-bottom:$margin;
+	margin:$margin;
+	padding:10px;
 	border-radius:15px;
+}
+
+legend
+{
+	text-align:center;
 }
 
 input
 {
 	border-radius:5px;
 }
+
+
+
+select
+{
+	border-radius:5px;
+}
+
+fieldset
+{
+	margin-left:$margin;
+}
+
+.margen
+{
+	margin:$marginS;
+}
+
+.padding
+{
+	padding-top:30px;
+}
+
 
 select
 {
@@ -119,8 +153,8 @@ select
 
 textarea
 {
-	height:200px;
-	width:300px;
+	height:100px;
+	width:75%;
 	margin-left:20px;
 }
 
@@ -164,10 +198,8 @@ footer div h5
 .textoFondo
 {
 	display: inline-block;
-	text-align: map-get($estilos,centro);
 	padding: 10px;
-	margin-left: 200px;
-	margin-right: 100px;
+
 	margin-top: 100px;
 	
 }
@@ -187,10 +219,16 @@ footer div h5
 	text-align: left;
 }
 
+.izquierda
+{
+	align:left;
+}
+
 .centro
 {
 	display: flex;
 	align-items: center;
+	text-align:center;
 	justify-content: center;
 }
 
@@ -241,24 +279,4 @@ footer div h5
 .articulo__p3
 {
 	text-align:left;
-}
-
-.contenedor2
-{
-	display:grid;
-	grid-template-columns:49% 49%;
-	grid-template-rows:auto;
-	grid-template-areas:
-	"tratamiento metodo";
-	justify-items:center;
-	align-items:center;
-}
-article.texto2
-{
-	grid-area: tratamiento;
-}
-
-article.tabla2
-{
-	grid-area: metodo;
 }
