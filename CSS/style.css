@@ -46,17 +46,20 @@ footer {
 .padding {
   background-color: #1cbee2; }
 
+.paddingM {
+  background-image: radial-gradient(#1cbee2, white); }
+
 @keyframes fondos {
   0% {
-    background-color: beige; }
+    background-color: white; }
   25% {
-    background-color: aquamarine; }
+    background-color: #1cbee1; }
   50% {
     background-color: #1cbee2; }
   75% {
-    background-color: aquamarine; }
+    background-color: #1cbee3; }
   100% {
-    background-color: beige; } }
+    background-color: white; } }
 
 .fondoDeInicio {
   background-image: url(../assets/img/empresa.jpg); }
@@ -127,6 +130,7 @@ footer {
   width: 200px;
   height: 50px;
   text-align: center;
+  font-size: 2rem;
   color: black;
   border-radius: 10px;
   border: 1px solid black; }
@@ -211,6 +215,10 @@ fieldset {
 
 .padding {
   padding-top: 30px; }
+
+.paddingM {
+  padding: 20px;
+  margin: 15px; }
 
 select {
   border-radius: 5px; }

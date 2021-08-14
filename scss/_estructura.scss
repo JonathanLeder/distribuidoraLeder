@@ -11,6 +11,7 @@ $marginL:250px;
 	width:200px;
 	height:50px;
 	text-align:center;
+	font-size:2rem;
 	color:black;
 	border-radius:10px;
 	border:1px solid black;
@@ -143,6 +144,12 @@ fieldset
 .padding
 {
 	padding-top:30px;
+}
+
+.paddingM
+{
+	padding:20px;
+	margin:15px;
 }
 
 

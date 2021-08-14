@@ -76,13 +76,18 @@ table tbody tr td
    background-color:#1cbee2;
 }
 
+.paddingM
+{
+   background-image:radial-gradient(#1cbee2,white);
+}
+
  @keyframes fondos
 {
-	0%{background-color: beige;}
-	25%{background-color: aquamarine;}
+	0%{background-color: white;}
+	25%{background-color: #1cbee1;}
 	50%{background-color: #1cbee2;}
-	75%{background-color: aquamarine;}
-	100%{background-color: beige;}
+	75%{background-color: #1cbee3;}
+	100%{background-color: white;}
 
 }
 .fondoDeInicio

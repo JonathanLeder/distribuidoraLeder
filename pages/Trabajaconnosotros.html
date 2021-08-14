@@ -55,111 +55,113 @@
 		</div>
 	</div>
 	</header>
-	<section>
-		<article>
-			<h1>Forma parte de nuestro equipo</h1>
-			<p>En Brandt S.R.L trabajamos arduamente para dia a dia para poder brindar un servicio esencial a la comunidad, nos caracterizamos por tener un buen ambito laboral, con concenso y compañerismo a la hora de enfrentar las adversidades, Te Gustaria ser parte?</p>
-		</article>
-	</section>
-	<section>
-		<article>
-			<form>
-				<fieldset>
-					<br>
-					<legend><strong>Trabajemos juntos!</strong></legend>
-					<br>
-					<label for="Nombres">Nombres</label>
-					<input type="text" name="Nombres" placeholder="Ingrese sus nombres aqui">
-					<label for="Apellidos">  Apellidos</label>
-					<input type="text" name="Apellidos" placeholder="Ingrese sus Apellidos aqui"><br>
-					<!--inicio seleccion de sexo-->
-					<br>
-					<div>Sexo
-					<select name="Sexo">
-						<option value="1" selected>Femenino</option>
-						<option value="2">Masculino</option>
-						</div>
-					</select>
-					<!-- fin seleccion de sexo-->
-					<label for="Fnac">Fecha de nacimiento</label>
-					<input type="Fecha" name="Fnac" placeholder="Ingrese su fecha de nacimiento">
-					<label for="dni">DNI(Sin puntos)</label>
-					<input type="number" name="dni" placeholder="DNI">
-					<div>Estado civil
-						<select name="estado civil">
-							<option value="1" selected>Soltero/a</option>
-							<option value="2"> Casado/a</option>
-						</select>
-					</div><br>
-					<div>Hijos
-						<select name="Hijos">
-							<option value="1" selected>No</option>
-							<option value="2">Si</option>
-						</select>
+	<main class="container">
+			<section>
+				<article>
+					<h1>Forma parte de nuestro equipo</h1>
+					<p>En Brandt S.R.L trabajamos arduamente para dia a dia para poder brindar un servicio esencial a la comunidad, nos caracterizamos por tener un buen ambito laboral, con concenso y compañerismo a la hora de enfrentar las adversidades, Te Gustaria ser parte?</p>
+				</article>
+			</section>
+			<section>
+				<article>
+					<form>
+						<fieldset>
+							<br>
+							<legend><strong>Trabajemos juntos!</strong></legend>
+							<br>
+							<label for="Nombres">Nombres</label>
+							<input type="text" name="Nombres" placeholder="Ingrese sus nombres aqui">
+							<label for="Apellidos">  Apellidos</label>
+							<input type="text" name="Apellidos" placeholder="Ingrese sus Apellidos aqui"><br>
+							<!--inicio seleccion de sexo-->
+							<br>
+							<div>Sexo
+							<select name="Sexo">
+								<option value="1" selected>Femenino</option>
+								<option value="2">Masculino</option>
+								</div>
+							</select>
+							<!-- fin seleccion de sexo-->
+							<label for="Fnac">Fecha de nacimiento</label>
+							<input type="Fecha" name="Fnac" placeholder="Ingrese su fecha de nacimiento">
+							<label for="dni">DNI(Sin puntos)</label>
+							<input type="number" name="dni" placeholder="DNI">
+							<div>Estado civil
+								<select name="estado civil">
+									<option value="1" selected>Soltero/a</option>
+									<option value="2"> Casado/a</option>
+								</select>
+							</div><br>
+							<div>Hijos
+								<select name="Hijos">
+									<option value="1" selected>No</option>
+									<option value="2">Si</option>
+								</select>
+							</div>
+							<label for="Localidad">Localidad</label>
+							<input type="text" name="Localidad" placeholder="Donde reside">
+							<label for="cp">Codigo Postal</label>
+							<input type="number" name="cp" placeholder="Ingrese su codigo postal">
+							<label for="Telefono">Telefono de contacto</label>
+							<input type="number" name="Telefono" placeholder="Puede ser celular o fijo">
+							<label for="Talt">Telefono alternativo</label>
+							<input type="number" name="Talt" placeholder="Ingrese su telefono alternativo">
+							<br><br><label for="Email">Email</label>
+							<input type="text" name="Email" placeholder="Ingrese su correo electronico">
+							<br><br><div>Estudios Cursados
+								<select name="Estudios">
+									<option value="1" selected>seleccionar</option>
+									<option value="2">Primario</option>
+									<option value="3">Secundario</option>
+									<option value="4">Terciario</option>
+									<option value="5">Universitario</option>
+									<option value="6">Posgrado</option>
+								</select>
+							</div>
+							<br><!--Inicio de puestos de trabajo-->
+								<div>A que puesto te gustaria postularte?(Pueden ser varios)</div>
+								<div>Repartidor<input type="checkbox" name="puesto" value="1"></div>
+								<div>Ayudante de repartidor<input type="checkbox" name="puesto" value="1"></div>
+								<div>Sector agua/soda<input type="checkbox" name="puesto" value="1"></div>
+								<div>Atencion al Cliente<input type="checkbox" name="puesto" value="1"></div>
+								<div>Logistica<input type="checkbox" name="puesto" value="1"></div>
+								<div>Limpieza<input type="checkbox" name="puesto" value="1"></div>
+							<!--Fin puestos de trabajo-->
+							<div>Experiencia laboral</div>
+							<textarea placeholder="Contanos sobre tu experiencia laboral"></textarea>
+							<div>Referencias</div>
+							<textarea placeholder="Referencias Comprobables"></textarea>
+							<div>Por que te gustaria trabajar en Aguas Brandt?</div>
+							<textarea placeholder="Contanos brevemente cuales son tus objetivos"></textarea><br>
+						</fieldset>
+					</form>
+					<div align="center">
+						<input type="reset" value="Borrar todo" class="boton boton--cancelar margen">
+						<input type="submit" value="Enviar" class="boton boton--aceptar margen">
 					</div>
-					<label for="Localidad">Localidad</label>
-					<input type="text" name="Localidad" placeholder="Donde reside">
-					<label for="cp">Codigo Postal</label>
-					<input type="number" name="cp" placeholder="Ingrese su codigo postal">
-					<label for="Telefono">Telefono de contacto</label>
-					<input type="number" name="Telefono" placeholder="Puede ser celular o fijo">
-					<label for="Talt">Telefono alternativo</label>
-					<input type="number" name="Talt" placeholder="Ingrese su telefono alternativo">
-					<br><br><label for="Email">Email</label>
-					<input type="text" name="Email" placeholder="Ingrese su correo electronico">
-					<br><br><div>Estudios Cursados
-						<select name="Estudios">
-							<option value="1" selected>seleccionar</option>
-							<option value="2">Primario</option>
-							<option value="3">Secundario</option>
-							<option value="4">Terciario</option>
-							<option value="5">Universitario</option>
-							<option value="6">Posgrado</option>
-						</select>
+				</article>
+			</section>
+			<hr>
+			<div class="container-fluid">
+				<div class="row fondoC">
+					<div class="col-lg-6 col-xs-12">
+						<ul class="izq">	
+							<div><a href="https://www.google.com.ar/maps/place/Aguas+Brandt+S.R.L./@-40.7945176,-62.9646187,15z/data=!4m5!3m4!1s0x95f6a3458747e7ab:0x8bdce953da0c98b0!8m2!3d-40.7876965!4d-62.9601756"target="_blank" ><img src="../assets/icons/ubicacion.jpg" alt="ubicacion" width="16px" height="16px"></a>Parque Industrial C. de Patagones</div>
+							<div> <img src="../assets/icons/reloj.jpg" alt="logoreloj" width="16px" height="16px">Lunes a viernes de 8:00-12:30 y 14:30-18:30</div>
+							<div>Sabados de 8:00-12:30</div>
+							<div><img src="../assets/icons/tel.jpg" alt="logotel" width="16px" height="16px">Tel:2920-462259</div>
+						</ul>
 					</div>
-					<br><!--Inicio de puestos de trabajo-->
-						<div>A que puesto te gustaria postularte?(Pueden ser varios)</div>
-						<div>Repartidor<input type="checkbox" name="puesto" value="1"></div>
-						<div>Ayudante de repartidor<input type="checkbox" name="puesto" value="1"></div>
-						<div>Sector agua/soda<input type="checkbox" name="puesto" value="1"></div>
-						<div>Atencion al Cliente<input type="checkbox" name="puesto" value="1"></div>
-						<div>Logistica<input type="checkbox" name="puesto" value="1"></div>
-						<div>Limpieza<input type="checkbox" name="puesto" value="1"></div>
-					<!--Fin puestos de trabajo-->
-					<div>Experiencia laboral</div>
-					<textarea placeholder="Contanos sobre tu experiencia laboral"></textarea>
-					<div>Referencias</div>
-					<textarea placeholder="Referencias Comprobables"></textarea>
-					<div>Por que te gustaria trabajar en Aguas Brandt?</div>
-					<textarea placeholder="Contanos brevemente cuales son tus objetivos"></textarea><br>
-				</fieldset>
-			</form>
-			<div align="center">
-				<input type="reset" value="Borrar todo" class="boton boton--cancelar margen">
-				<input type="submit" value="Enviar" class="boton boton--aceptar margen">
+					<div class="col-lg-6 col-xs-12">
+						<ul>
+							<div><img src="../assets/icons/mail.jpg" alt="logomail" width="16px" height="16px">Mail:aguasbrandt@hotmail.com</div>
+							<span><img src="../assets/icons/fb.jpg" alt="logofb" width="16px" height="16px">fb:<a href="https://www.facebook.com/AguasBrandt"target="_blank">Aguas brandt</a>
+							<img src="../assets/icons/ig.jpg" alt="logoig" width="16px" height="16px">Ig:<a href="https://www.instagram.com/aguasbrandt/?fbclid=IwAR0VZHCB6UdhWEiaTRWk6riMlxsXhoOpqKGiTI239o_IigA1GVV-WWQL_-0" target="_blank">Aguas Brandt</a></span>
+						</ul>
+					</div>
+				</div>
 			</div>
-		</article>
-	</section>
-	<hr>
-		<div class="container-fluid">
-		<div class="row fondoC">
-			<div class="col-lg-6 col-xs-12">
-				<ul class="izq">	
-					<div><a href="https://www.google.com.ar/maps/place/Aguas+Brandt+S.R.L./@-40.7945176,-62.9646187,15z/data=!4m5!3m4!1s0x95f6a3458747e7ab:0x8bdce953da0c98b0!8m2!3d-40.7876965!4d-62.9601756"target="_blank" ><img src="../assets/icons/ubicacion.jpg" alt="ubicacion" width="16px" height="16px"></a>Parque Industrial C. de Patagones</div>
-					<div> <img src="../assets/icons/reloj.jpg" alt="logoreloj" width="16px" height="16px">Lunes a viernes de 8:00-12:30 y 14:30-18:30</div>
-					<div>Sabados de 8:00-12:30</div>
-					<div><img src="../assets/icons/tel.jpg" alt="logotel" width="16px" height="16px">Tel:2920-462259</div>
-				</ul>
-			</div>
-			<div class="col-lg-6 col-xs-12">
-				<ul>
-					<div><img src="../assets/icons/mail.jpg" alt="logomail" width="16px" height="16px">Mail:aguasbrandt@hotmail.com</div>
-					<span><img src="../assets/icons/fb.jpg" alt="logofb" width="16px" height="16px">fb:<a href="https://www.facebook.com/AguasBrandt"target="_blank">Aguas brandt</a>
-					<img src="../assets/icons/ig.jpg" alt="logoig" width="16px" height="16px">Ig:<a href="https://www.instagram.com/aguasbrandt/?fbclid=IwAR0VZHCB6UdhWEiaTRWk6riMlxsXhoOpqKGiTI239o_IigA1GVV-WWQL_-0" target="_blank">Aguas Brandt</a></span>
-				</ul>
-			</div>
-		</div>
-	</div>
+	</main>
 	<footer>
 		<h4>&copy Brandt S.R.L. 2021.</h4>
 	</footer>
