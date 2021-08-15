@@ -1,6 +1,11 @@
-nav {
-  background-image: linear-gradient(to bottom, #1cbee2, white);
-  color: black; }
+a {
+  color: black;
+  transition: all 2s; }
+
+a:hover {
+  backgroung-color: red !important;
+  color: white;
+  transform: scale(1, 2); }
 
 hr {
   border-color: darkblue; }
