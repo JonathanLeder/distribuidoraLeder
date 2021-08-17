@@ -17,9 +17,9 @@ a
 
 a:hover
 {
-   backgroung-color:red!important;
+   background-color:$celeste!important;
    color:white;
-   transform:scale(1,2);
+   
 }
 
 hr
@@ -27,16 +27,10 @@ hr
  	border-color:$azuloscuro;
  }
 
- form
- {
- 	background:$blanco;
- 	color:$negro;
- 	animation-name:fondos;
- 	animation-iteration-count:infinite;
- 	animation-timing-function:ease-in;
- 	animation-duration:25s;
- 	animation-delay:0s;
- }
+form
+{
+   background-image:linear-gradient(to left,white,#1cbee2)
+}
 
  p
  {
@@ -67,10 +61,8 @@ table tbody tr td
  }
  .textoFondo
  {
- 	background-color: beige;
- 	opacity:0.5;
 	background-attachment: fixed;
-	color: $negro;
+	color: $blanco;
  }
 
  .fondoC
@@ -78,25 +70,11 @@ table tbody tr td
  	background-image: linear-gradient(to bottom,white,#1cbee2)
  }
 
- .padding
-{
-   background-color:#1cbee2;
-}
-
 .paddingM
 {
    background-image:radial-gradient(#1cbee2,white);
 }
 
- @keyframes fondos
-{
-	0%{background-color: white;}
-	25%{background-color: #1cbee1;}
-	50%{background-color: #1cbee2;}
-	75%{background-color: #1cbee3;}
-	100%{background-color: white;}
-
-}
 .fondoDeInicio
 {
 	background-image:url(../assets/img/empresa.jpg);

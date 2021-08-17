@@ -3,21 +3,14 @@ a {
   transition: all 2s; }
 
 a:hover {
-  backgroung-color: red !important;
-  color: white;
-  transform: scale(1, 2); }
+  background-color: #1cbee2 !important;
+  color: white; }
 
 hr {
   border-color: darkblue; }
 
 form {
-  background: white;
-  color: black;
-  animation-name: fondos;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in;
-  animation-duration: 25s;
-  animation-delay: 0s; }
+  background-image: linear-gradient(to left, white, #1cbee2); }
 
 p {
   color: black; }
@@ -40,31 +33,14 @@ footer {
   color: black; }
 
 .textoFondo {
-  background-color: beige;
-  opacity: 0.5;
   background-attachment: fixed;
-  color: black; }
+  color: white; }
 
 .fondoC {
   background-image: linear-gradient(to bottom, white, #1cbee2); }
 
-.padding {
-  background-color: #1cbee2; }
-
 .paddingM {
   background-image: radial-gradient(#1cbee2, white); }
-
-@keyframes fondos {
-  0% {
-    background-color: white; }
-  25% {
-    background-color: #1cbee1; }
-  50% {
-    background-color: #1cbee2; }
-  75% {
-    background-color: #1cbee3; }
-  100% {
-    background-color: white; } }
 
 .fondoDeInicio {
   background-image: url(../assets/img/empresa.jpg); }
@@ -72,6 +48,12 @@ footer {
 p {
   font-size: 2rem;
   font-family: 'Fira Sans Condensed',sans-serif; }
+
+.pProductos {
+  font-size: 2.7rem; }
+
+.pTabla {
+  font-size: 2.5rem; }
 
 span {
   font-size: 1.7rem; }
@@ -161,6 +143,15 @@ nav ul li {
   font-size: 2rem;
   text-align: center; }
 
+.nav {
+  background-color: white;
+  color: black; }
+
+.nav__div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center !important; }
+
 .header {
   background-color: red; }
 
@@ -219,7 +210,7 @@ fieldset {
   margin: 5px; }
 
 .padding {
-  padding-top: 30px; }
+  padding-top: 60px; }
 
 .paddingM {
   padding: 20px;
@@ -259,10 +250,15 @@ footer div {
 footer div h5 {
   text-align: center; }
 
+.textoInicio {
+  padding: 15px; }
+
 .textoFondo {
-  display: inline-block;
-  padding: 10px;
-  margin-top: 100px; }
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+  padding: 10px; }
 
 .justificado {
   text-align: center;
