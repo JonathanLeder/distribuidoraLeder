@@ -60,9 +60,9 @@ nav ul li
 .nav__div
 {
 	display:flex;
-	justify-content:space-around;
-	align-items:center!important;
+	 justify-content:flex-end;
 }
+
 
 
 .header
@@ -217,18 +217,16 @@ footer div h5
 
 .textoInicio
 {
-	padding:15px;
+	display:inline-block;
+	margin-bottom:500px;
 }
 
-.textoFondo
-{
-	display:flex;
-	justify-content:center;
-	align-items:flex-end;
-	text-align:center;
-	padding:10px;
-
-	
+.fondoDeInicio {
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    text-align:center;
 }
 
 
@@ -259,12 +257,6 @@ footer div h5
 	justify-content: center;
 }
 
-
-.fondoDeInicio
-{
-	background-repeat:no-repeat;
-	background-position:map-get($estilos,centro);
-}
 
 
 .seccion

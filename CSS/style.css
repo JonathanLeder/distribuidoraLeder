@@ -33,7 +33,9 @@ footer {
   color: black; }
 
 .textoFondo {
-  background-attachment: fixed;
+  color: white; }
+
+.textoInicio {
   color: white; }
 
 .fondoC {
@@ -149,8 +151,7 @@ nav ul li {
 
 .nav__div {
   display: flex;
-  justify-content: space-around;
-  align-items: center !important; }
+  justify-content: flex-end; }
 
 .header {
   background-color: red; }
@@ -251,14 +252,15 @@ footer div h5 {
   text-align: center; }
 
 .textoInicio {
-  padding: 15px; }
+  display: inline-block;
+  margin-bottom: 500px; }
 
-.textoFondo {
+.fondoDeInicio {
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
-  justify-content: center;
   align-items: flex-end;
-  text-align: center;
-  padding: 10px; }
+  text-align: center; }
 
 .justificado {
   text-align: center;
@@ -278,10 +280,6 @@ footer div h5 {
   align-items: center;
   text-align: center;
   justify-content: center; }
-
-.fondoDeInicio {
-  background-repeat: no-repeat;
-  background-position: center; }
 
 .seccion {
   display: grid;
