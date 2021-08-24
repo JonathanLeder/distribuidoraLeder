@@ -10,7 +10,7 @@ hr {
   border-color: darkblue; }
 
 form {
-  background-image: linear-gradient(to left, white, #1cbee2); }
+  background-color: #1cbee2; }
 
 p {
   color: black; }
@@ -115,21 +115,6 @@ footer {
   grid-column-gap: 10px;
   grid-row-gap: 10px; }
 
-.boton, .boton--aceptar, .boton--cancelar {
-  width: 200px;
-  height: 50px;
-  text-align: center;
-  font-size: 2rem;
-  color: black;
-  border-radius: 10px;
-  border: 1px solid black; }
-
-.boton--aceptar {
-  background-color: #1cbee2; }
-
-.boton--cancelar {
-  background-color: #1cbee2; }
-
 html {
   font-size: 62.5%; }
 
@@ -140,8 +125,8 @@ nav ul {
   padding: 25px; }
 
 nav ul li {
-  width: 20%;
-  height: 10%;
+  width: 30%;
+  height: 70%;
   font-size: 2rem;
   text-align: center; }
 
@@ -194,6 +179,21 @@ form {
   margin: 10px;
   padding: 10px;
   border-radius: 15px; }
+
+.boton, .boton--aceptar, .boton--cancelar {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+  border-radius: 10px;
+  border: 1px solid black; }
+
+.boton--aceptar {
+  background-color: #1cbee2; }
+
+.boton--cancelar {
+  background-color: #1cbee2; }
 
 legend {
   text-align: center; }
