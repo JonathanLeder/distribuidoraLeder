@@ -13,22 +13,22 @@ html
 	font-size: 62.5%;
 }
 
-nav
-{
-	border-style:none;
-}
 
 nav ul
 	{
 	padding:25px;
+
 	}
 
 nav ul li
 	{
-	width:30%;
-	height:70%;
-	font-size:2rem;
+
+	font-size:4rem;
 	text-align:center;
+	font-family: 'Playfair Display', serif;
+	border-color:black;
+	border-width:2px;
+	border-left:ridge;
 	}
 
 .nav
@@ -84,18 +84,21 @@ h1
 {
 	text-align:map-get($estilos,centro);
 	color:$negro;
+	font-family: 'Playfair Display', serif;
 }
 
 h3
 {
 	text-align:map-get($estilos,centro);
 	font-size:3rem;
+	font-family: 'Playfair Display', serif;
 }
 
 p
 {
 	margin:$margin;
 	margin-left:20px;
+	font-family: 'Poppins', sans-serif;
 }
 
 form
@@ -219,16 +222,20 @@ footer div h5
 
 .textoInicio
 {
-	display:inline-block;
-	margin-bottom:400px;
+    text-align:center;
+	font-size:5rem;
+	font-family: 'Playfair Display', serif;
+	margin-top:100px;
 }
+
 
 .fondoDeInicio {
     background-repeat: no-repeat;
     background-position: center;
-    display: flex;
-    align-items: flex-end;
+    display:flex;
+    align-items:flex-start;
     text-align:center;
+    
 }
 
 
@@ -272,14 +279,20 @@ footer div h5
 	align-items:map-get($estilos,centro);
 }
 
-.seccion__texto
+.seccion__izquierda
 {
 	grid-area:nuestrosProductos;
 
 }
 
-.seccion__tabla
+.seccion__derecha
 {
 	grid-area:productos;
+}
+
+.redesC
+{
+	display:flex;
+	justify-content:center;
 }
 
